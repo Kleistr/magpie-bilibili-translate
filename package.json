@@ -1,0 +1,26 @@
+{
+  "name": "magpie-bilibili-translate",
+  "version": "0.1.0",
+  "description": "Magpie provider plugin: Index-Translate by bilibili (free public translation API)",
+  "type": "module",
+  "main": "./index.mjs",
+  "files": ["index.mjs", "README.md"],
+  "scripts": {
+    "test": "bun test"
+  },
+  "keywords": ["magpie", "magpie-plugin", "index-translate", "bilibili", "translate"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kleistr/magpie-bilibili-translate.git"
+  },
+  "author": "Kleistr",
+  "homepage": "https://github.com/Kleistr/magpie-bilibili-translate#readme",
+  "bugs": {
+    "url": "https://github.com/Kleistr/magpie-bilibili-translate/issues"
+  },
+  "magpie": {
+    "icon": "https://avatars.githubusercontent.com/u/12002442?s=60&v=4",
+    "maxConcurrency": 4
+  }
+}
